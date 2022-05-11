@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+	<resources>
+		<resource name="DuplicateSizeSpinner" path="DuplicateSizeSpinner.CorelAddon">
+			<resourceMap>
+				<!-- Menu item icon and string resource -->
+				<resEntry id="204731af-49f0-4af4-9c35-4b3df6421b59" string="10223" icon="104"/>
+      </resourceMap>
+		</resource>
+	</resources>
+</config>

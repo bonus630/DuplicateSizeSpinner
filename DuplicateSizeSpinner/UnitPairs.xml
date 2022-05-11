@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UnitPairs>
+	<UnitPair>
+		<First>2</First>
+		<Last>1</Last>
+	</UnitPair>
+	<UnitPair>
+		<First>4</First>
+		<Last>3</Last>
+	</UnitPair>
+</UnitPairs>
