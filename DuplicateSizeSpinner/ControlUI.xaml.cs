@@ -54,8 +54,10 @@ namespace DuplicateSizeSpinner
                 UnitPair topPair = unitPairs.FindFirstOrDefaultPair(top);
                 UnitPair bottomPair = unitPairs.FindFirstOrDefaultPair(bottom);
 
-                duplicateSpinnerDSP.SetProperty("BottomDisplayUnit",bottomPair.ReverseUnit(bottom));
-                duplicateSpinnerDSP.SetProperty("TopDisplayUnit", topPair.ReverseUnit(top));
+                if(bottomPair!=null)
+                    duplicateSpinnerDSP.SetProperty("BottomDisplayUnit",bottomPair.ReverseUnit(bottom));
+                if(topPair!=null)
+                    duplicateSpinnerDSP.SetProperty("TopDisplayUnit", topPair.ReverseUnit(top));
             }
         }
      
